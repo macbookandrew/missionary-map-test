@@ -1,0 +1,7 @@
+fix size on iPhone
+group nearby pins using https://github.com/Leaflet/Leaflet.markercluster
+fix some image/text spacing issues
+
+
+convert to WP plugin
+build in geolocation-lookup
