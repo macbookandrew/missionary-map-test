@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+#map {
+  width: 100%;
+  height: 100%; }
+
+.leaflet-popup-content {
+  min-height: 10em; }
+
+.popup-photo {
+  max-height: 10em;
+  max-width: 10em;
+  float: left;
+  margin-right: 1em;
+  border-radius: 1em; }
+
+.popup-address {
+  margin-left: 6em; }
+
+/*# sourceMappingURL=styles.css.map */
