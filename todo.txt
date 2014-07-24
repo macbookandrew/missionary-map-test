@@ -1,6 +1,13 @@
-group nearby pins using https://github.com/Leaflet/Leaflet.markercluster
+group nearby pins using: https://github.com/Leaflet/Leaflet.markercluster
 fix some image/text spacing issues
+zoomed-out: display edge markers? https://github.com/ubergesundheit/Leaflet.EdgeMarker
+add button for full-world view: https://github.com/alanshaw/leaflet-zoom-min/
+add button for full-screen: http://brunob.github.io/leaflet.fullscreen/
+    load in full-screen by default?
 
+offline use: load map data from hard drive? https://github.com/makinacorpus/Leaflet.FileLayer
+
+change map style? http://jawj.github.io/OverlappingMarkerSpiderfier-Leaflet/demo.html and http://maps.stamen.com/#watercolor/
 
 convert to WP plugin
-build in geolocation-lookup
+build in geolocation-lookup: look at http://leafletjs.com/plugins.html#geocoding-address-lookup
