@@ -6,6 +6,7 @@ L.Icon.Default.imagePath = 'images';
 // @codekit-prepend "leaflet.js";
 // @codekit-prepend "missionary-list.js";
 // @codekit-prepend "../bower_components/leaflet.markercluster/dist/leaflet.markercluster.js";
+// @codekit-prepend "L.Control.Sidebar.js";
 
 // create a map in the "map" div, set the view to a given place and zoom
 var map = L.map('map').setView([0,0], 1);

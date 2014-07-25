@@ -71,7 +71,7 @@
 		},
 	"\/bower_components\/leaflet.markercluster\/dist\/MarkerCluster.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/leaflet.markercluster\/dist\/MarkerCluster.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -80,7 +80,7 @@
 		},
 	"\/bower_components\/leaflet.markercluster\/dist\/MarkerCluster.Default.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/leaflet.markercluster\/dist\/MarkerCluster.Default.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -871,6 +871,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/js\/L.Control.Sidebar.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/L.Control.Sidebar.js",
+		"outputAbbreviatedPath": "\/js\/min\/L.Control.Sidebar-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
 	"\/js\/leaflet-src.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -938,14 +949,30 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/styles.scss": {
+	"\/scss\/L.Control.Sidebar.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/scss\/L.Control.Sidebar.scss",
+		"outputAbbreviatedPath": "\/css\/L.Control.Sidebar.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/styles.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/styles.scss",
+		"inputAbbreviatedPath": "\/scss\/styles.scss",
 		"outputAbbreviatedPath": "\/css\/styles.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
