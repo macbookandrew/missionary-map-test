@@ -49,7 +49,7 @@
 		},
 	"\/bower_components\/leaflet.markercluster\/dist\/leaflet.markercluster-src.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/leaflet.markercluster\/dist\/leaflet.markercluster-src.js",
 		"outputAbbreviatedPath": "\/bower_components\/leaflet.markercluster\/dist\/min\/leaflet.markercluster-src-min.js",
@@ -60,8 +60,8 @@
 		},
 	"\/bower_components\/leaflet.markercluster\/dist\/leaflet.markercluster.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/bower_components\/leaflet.markercluster\/dist\/leaflet.markercluster.js",
 		"outputAbbreviatedPath": "\/bower_components\/leaflet.markercluster\/dist\/min\/leaflet.markercluster-min.js",
 		"outputPathIsOutsideProject": 0,
