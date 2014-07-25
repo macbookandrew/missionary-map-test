@@ -241,13 +241,22 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-// cluster nearby markers
+// add sidebar
+var sidebar = L.control.sidebar('sidebar', {
+    position: 'left'
+});
+
+map.addControl(sidebar);
+
+// cluster nearby markers and display markers
 var markers = new L.MarkerClusterGroup();
 
 for (var i = 0; i < missionaryPoints.length; i++) {
     var a = missionaryPoints[i];
     var title = a[2];
-    var marker = L.marker(new L.LatLng(a[0], a[1]), { title: title });
+    var marker = L.marker(new L.LatLng(a[0], a[1]), { title: title }).on('click', function () {
+            sidebar.toggle();
+        });;
     marker.bindPopup(title);
     markers.addLayer(marker);
 }
