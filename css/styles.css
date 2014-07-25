@@ -1,4 +1,6 @@
 @import url(leaflet.css);
+@import url(../bower_components/leaflet.markercluster/dist/MarkerCluster.css);
+@import url(../bower_components/leaflet.markercluster/dist/MarkerCluster.Default.css);
 html,
 body {
   margin: 0;

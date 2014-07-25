@@ -1,4 +1,3 @@
-group nearby pins using: https://github.com/Leaflet/Leaflet.markercluster
 fix some image/text spacing issues
 zoomed-out: display edge markers? https://github.com/ubergesundheit/Leaflet.EdgeMarker
 add button for full-world view: https://github.com/alanshaw/leaflet-zoom-min/
