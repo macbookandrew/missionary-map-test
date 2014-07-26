@@ -9195,11 +9195,11 @@ var missionaryPoints = [
 ["Stephen and Julie Knickerbocker","11.7100294","-2.3700296","Burkina Faso","Church planting","865-406-9636","knickinburkina@gmail.com","http://knickinburkinafaso.com","NULL","NULL","NULL","NULL","Temple Baptist Church<br/>Pastor Clarence Sexton<br/>1700 W Beaver Creek Dr.<br/>Powell, TN 37849<br/>865-938-8182","Stephen: September 15<br/>Julie: September 26","2010-08-07","Knickerbocker-Stephen-274x300.jpg"],
 ["John and Kim O&rsquo;Malley","35.2451343","-81.3411942","WWNTBM","Representative","704-974-6108","johnomalley@wwntbm.com","http://johnomalley.me","PO Box 1374","Kings Mountain","NC","28086","Faith Baptist Church<br/>Pastor Barry Goodman<br/>2738 South Post Rd.<br/>Shelby, NC 28152<br/>704-487-0006","John: February 15<br/>Kim: November 7<br/>John IX: December 18","1986-02-14","OMalley-John-and-Kim-300x199.jpg"],
 ["Jack and Melinda Peeler","3.848","154.94855305","Nukuoro","Church planting","NULL","jack@thepeelers.org","http://thepeelers.org","NULL","NULL","NULL","NULL","Faith Baptist Church<br/>Pastor John Monroe<br/>500 W. Lee Road<br/>Taylors, SC 29687-2513<br/>864-322-0700","Jack: June 1<br/>Melinda: March 6","1974-08-16","Peeler-Jack-300x214.jpg"],
-["Sean and Tammy Quinlan","13.3816325","144.658078980784","Guam","Church planting","NULL","quinlan8@gmail.com","NULL","PO Box 7015","Agat","Gu","96928","Emmanuel Baptist Church<br/>Pastor Jim Ogle<br/>602 Canterbury Road<br/>Kings Mountain"," NC 28086<br/>(704) 739-9339","Sean: February 24<br/>Tammy: January 15<br/>Stephen: September 22, 1993<br/>James: July 30, 1995<br/>Rachel: February 9, 1997<br/>Hannah: March 24, 2000<br/>Bethany: March 3, 2003<br/>Abigail: August 24, 2005<br/>Daniel: November 25, 2011<br/>Benjamin: November 16, 2013","1992-12-09","Quinlan-Dec-2013-300x206.jpg"],
-["Alejandro and Josefina Sanchez","40.5836391","-3.2979523","Span","Church planting","011-34-949273831","alesamfina@gmail.com","NULL","Calderon de la Barca 19","Villanueva de la Torre","Guadalajara","19209","Trinity Baptist Church<br/>Pastor Mike Renfro<br/>PO Box 1236<br/>Wilson, NC 27894<br/>252-291-0303","Alejandro: October 2<br/>Josefina: June 8<br/>Samuel: March 31"," 1978","1971-12-26","Sanchez-02-cropped-300x198.jpeg"],
+["Sean and Tammy Quinlan","13.3816325","144.658078980784","Guam","Church planting","NULL","quinlan8@gmail.com","NULL","PO Box 7015","Agat","Gu","96928","Emmanuel Baptist Church<br/>Pastor Jim Ogle<br/>602 Canterbury Road<br/>Kings Mountain, NC 28086<br/>(704) 739-9339","Sean: February 24<br/>Tammy: January 15<br/>Stephen: September 22, 1993<br/>James: July 30, 1995<br/>Rachel: February 9, 1997<br/>Hannah: March 24, 2000<br/>Bethany: March 3, 2003<br/>Abigail: August 24, 2005<br/>Daniel: November 25, 2011<br/>Benjamin: November 16, 2013","1992-12-09","Quinlan-Dec-2013-300x206.jpg"],
+["Alejandro and Josefina Sanchez","40.5836391","-3.2979523","Spain","Church planting","011-34-949273831","alesamfina@gmail.com","NULL","Calderon de la Barca 19","Villanueva de la Torre","Guadalajara","19209","Trinity Baptist Church<br/>Pastor Mike Renfro<br/>PO Box 1236<br/>Wilson, NC 27894<br/>252-291-0303","Alejandro: October 2<br/>Josefina: June 8<br/>Samuel: March 31 1978","1971-12-26","Sanchez-02-cropped-300x198.jpeg"],
 ["Joshua and Joanna Town","39.7837304","-100.4458825","United States","Arabic-speaking people","NULL","jtown333@gmail.com","http://thetownfamily.com","NULL","NULL","NULL","NULL","Calvary Baptist Church<br/>Pastor James Martin<br/>241 Cadwalader Ave.<br/>Elkins Park, PA 19027<br/>(215) 886-5743","Joanna: July 21<br/>Josh: July 19<br/>Juliana: July 21, 2011<br/>Jayla: October 16, 2013","2010-06-05","TownFamily-Mar14-252x300.jpg"],
 ["Danny and Darlene Whetstone","35.9828413","-86.5186045","United States","WWNTBM","704-974-6111","dannywhetstone@wwntbm.com","NULL","4214 Brookline Dr.","Smyrna","TN","37167","Faith Baptist Church<br/>Pastor Barry Goodman<br/>2738 South Post Rd.<br/>Shelby, NC 28152<br/>704-487-0006","Danny: May 4<br/>Darleen: March 14","1969-06-07","Whetstone-Danny-300x252.jpg"],
-["Mark and Diane Zimmer","7.556","146.12854124","Yap","Church planting, Radio","011-691-350-2533","markenddiane@zimmerfamily.org","http://zimmerfamily.org","PO Box 459","NULL","Yap"," FM","96943","Faith Baptist Church<br/>Pastor Bruce Schmidt<br/>1475 Railroad Ave<br/>Chetek, WI 54728<br/>715-924-3980","Mark: July 18<br/>Diane: October 29<br/>Joseph: September 4, 1997<br/>John Mark: August 9, 1999<br/>Cherith: October 5, 2001<br/>Caleb: September 22, 2004<br/>Levi: March 11, 2010","1995-05-08","Zimmer_Mark-300x277.jpg"]
+["Mark and Diane Zimmer","7.556","146.12854124","Yap","Church planting, Radio","011-691-350-2533","markenddiane@zimmerfamily.org","http://zimmerfamily.org","PO Box 459","NULL","Yap","96943","Faith Baptist Church<br/>Pastor Bruce Schmidt<br/>1475 Railroad Ave<br/>Chetek, WI 54728<br/>715-924-3980","Mark: July 18<br/>Diane: October 29<br/>Joseph: September 4, 1997<br/>John Mark: August 9, 1999<br/>Cherith: October 5, 2001<br/>Caleb: September 22, 2004<br/>Levi: March 11, 2010","1995-05-08","Zimmer_Mark-300x277.jpg"]
 ];
 
 
@@ -9406,8 +9406,9 @@ L.control.sidebar = function (placeholder, options) {
 
 /* Leaflet core and plugins combined into one file */
 
-// set imagePath default
-L.Icon.Default.imagePath = 'images';
+// set image path defaults
+L.Icon.Default.imagePath = 'images'; // leaflet.js images
+var missionaryImagePath = 'images/missionaries'; // missionary photos
 
 // @codekit-prepend "leaflet-src.js";
 // @codekit-prepend "missionary-list.js";
@@ -9463,7 +9464,7 @@ for (var i = 0; i < missionaryPoints.length; i++) {
     var missionaryEmail = a[6];
     var missionaryWebsite = a[7];
     var missionaryStreet = a[8];
-    var missionaryCity = a[8];
+    var missionaryCity = a[9];
     var missionaryState = a[10];
     var missionaryZip = a[11];
     var missionarySendingChurch = a[12];
@@ -9484,9 +9485,28 @@ for (var i = 0; i < missionaryPoints.length; i++) {
         missionarySendingChurch: missionarySendingChurch,
         missionaryBirthdays: missionaryBirthdays,
         missionaryAnniversary: missionaryAnniversary,
-        missionaryImage: ''
+        missionaryImage: missionaryImage
     }).on('click', function () {
-        var sidebarContent = '<h1>' + this.options.missionaryName + '</h1><img src="' + this.options.missionaryImage + '" />';
+        var sidebarContent;
+        sidebarContent = '<h1 class="fn n">' + this.options.missionaryName + '</h1>';
+        sidebarContent += '<img class="missionary-photo" src="' + missionaryImagePath + '/' + this.options.missionaryImage + '" />';
+        if (this.options.missionaryCountry) { sidebarContent += '<h2 class="country">Field of Service: ' + this.options.missionaryCountry + '</h2>'; }
+        if (this.options.missionaryMinistries) { sidebarContent += '<h2 class="ministries">Ministry Types: ' + this.options.missionaryMinistries + '</h2>'; }
+        if (this.options.missionaryCity) {
+            sidebarContent += '<h2 class="address">Address</h2><address class="vcard adr">';
+            if (this.options.missionaryStreet) {sidebarContent += '<span class="street-address">' + this.options.missionaryStreet + '</span><br/>'; }
+            sidebarContent += '<span class="locality">' + this.options.missionaryCity + '</span>';
+            if (this.options.missionaryState) { sidebarContent += ' <span class="region">' + this.options.missionaryState + '</span>'; }
+            if (this.options.missionaryZip) { sidebarContent += ', <span class="postal-code">' + this.options.missionaryZip + '</span>'; }
+            sidebarContent += '<br/><span class="country-name">' + this.options.missionaryCountry + '</span>';
+            if (this.options.missionaryEmail) { sidebarContent += '<br/><span class="email">Email: ' + this.options.missionaryEmail + '</span>'; }
+            if (this.options.missionaryPhone) { sidebarContent += '<br/><span class="phone">Phone: ' + this.options.missionaryPhone + '</span>'; }
+            sidebarContent += '</address>';
+        }
+        if (this.options.missionarySendingChurch) { sidebarContent += '<h2 class="sending-church">Sending Church</h2><p>' + this.options.missionarySendingChurch + '</p>'; }
+        if (this.options.missionaryBirthdays) { sidebarContent += '<h2 class="birthdays">Birthdays</h2><p>' + this.options.missionaryBirthdays + '</p>'; }
+        if (this.options.missionaryAnniversary) { sidebarContent += '<h2 class="birthdays">Anniversary</h2><p>' + this.options.missionaryAnniversary + '</p>'; }
+        
         sidebar.setContent( sidebarContent );
         sidebar.show();
     });

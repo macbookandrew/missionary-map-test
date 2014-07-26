@@ -1,7 +1,8 @@
 /* Leaflet core and plugins combined into one file */
 
-// set imagePath default
-L.Icon.Default.imagePath = 'images';
+// set image path defaults
+L.Icon.Default.imagePath = 'images'; // leaflet.js images
+var missionaryImagePath = 'images/missionaries'; // missionary photos
 
 // @codekit-prepend "leaflet-src.js";
 // @codekit-prepend "missionary-list.js";
@@ -57,7 +58,7 @@ for (var i = 0; i < missionaryPoints.length; i++) {
     var missionaryEmail = a[6];
     var missionaryWebsite = a[7];
     var missionaryStreet = a[8];
-    var missionaryCity = a[8];
+    var missionaryCity = a[9];
     var missionaryState = a[10];
     var missionaryZip = a[11];
     var missionarySendingChurch = a[12];
@@ -78,9 +79,28 @@ for (var i = 0; i < missionaryPoints.length; i++) {
         missionarySendingChurch: missionarySendingChurch,
         missionaryBirthdays: missionaryBirthdays,
         missionaryAnniversary: missionaryAnniversary,
-        missionaryImage: ''
+        missionaryImage: missionaryImage
     }).on('click', function () {
-        var sidebarContent = '<h1>' + this.options.missionaryName + '</h1><img src="' + this.options.missionaryImage + '" />';
+        var sidebarContent;
+        sidebarContent = '<h1 class="fn n">' + this.options.missionaryName + '</h1>';
+        sidebarContent += '<img class="missionary-photo" src="' + missionaryImagePath + '/' + this.options.missionaryImage + '" />';
+        if (this.options.missionaryCountry) { sidebarContent += '<h2 class="country">Field of Service: ' + this.options.missionaryCountry + '</h2>'; }
+        if (this.options.missionaryMinistries) { sidebarContent += '<h2 class="ministries">Ministry Types: ' + this.options.missionaryMinistries + '</h2>'; }
+        if (this.options.missionaryCity) {
+            sidebarContent += '<h2 class="address">Address</h2><address class="vcard adr">';
+            if (this.options.missionaryStreet) {sidebarContent += '<span class="street-address">' + this.options.missionaryStreet + '</span><br/>'; }
+            sidebarContent += '<span class="locality">' + this.options.missionaryCity + '</span>';
+            if (this.options.missionaryState) { sidebarContent += ' <span class="region">' + this.options.missionaryState + '</span>'; }
+            if (this.options.missionaryZip) { sidebarContent += ', <span class="postal-code">' + this.options.missionaryZip + '</span>'; }
+            sidebarContent += '<br/><span class="country-name">' + this.options.missionaryCountry + '</span>';
+            if (this.options.missionaryEmail) { sidebarContent += '<br/><span class="email">Email: ' + this.options.missionaryEmail + '</span>'; }
+            if (this.options.missionaryPhone) { sidebarContent += '<br/><span class="phone">Phone: ' + this.options.missionaryPhone + '</span>'; }
+            sidebarContent += '</address>';
+        }
+        if (this.options.missionarySendingChurch) { sidebarContent += '<h2 class="sending-church">Sending Church</h2><p>' + this.options.missionarySendingChurch + '</p>'; }
+        if (this.options.missionaryBirthdays) { sidebarContent += '<h2 class="birthdays">Birthdays</h2><p>' + this.options.missionaryBirthdays + '</p>'; }
+        if (this.options.missionaryAnniversary) { sidebarContent += '<h2 class="birthdays">Anniversary</h2><p>' + this.options.missionaryAnniversary + '</p>'; }
+        
         sidebar.setContent( sidebarContent );
         sidebar.show();
     });

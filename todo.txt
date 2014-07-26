@@ -1,3 +1,5 @@
+remove NULL parts of address
+format anniversary as datetime
 fix some image/text spacing issues
 zoomed-out: display edge markers? https://github.com/ubergesundheit/Leaflet.EdgeMarker
 add button for full-world view: https://github.com/alanshaw/leaflet-zoom-min/
@@ -8,5 +10,6 @@ offline use: load map data from hard drive? https://github.com/makinacorpus/Leaf
 
 change map style? http://jawj.github.io/OverlappingMarkerSpiderfier-Leaflet/demo.html and http://maps.stamen.com/#watercolor/
 
-convert to WP plugin
+convert to WP plugin?
 build in geolocation-lookup: look at http://leafletjs.com/plugins.html#geocoding-address-lookup
+pull info from database (generate js array/JSON with cron job?)
