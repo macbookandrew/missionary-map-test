@@ -895,7 +895,7 @@
 		},
 	"\/js\/leaflet.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/leaflet.js",
 		"outputAbbreviatedPath": "\/js\/min\/leaflet-min.js",
