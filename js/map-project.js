@@ -55,3 +55,11 @@ for (var i = 0; i < missionaryPoints.length; i++) {
 
 // add markers to map
 map.addLayer(markers);
+
+// hide sidebar if map is clicked and sidebar is visible
+map.on('click', function() {
+    var sidebarVisible = sidebar.isVisible();
+    if (sidebarVisible == true) {
+        sidebar.hide();
+    }
+});
