@@ -1,3 +1,4 @@
 /source-data.csv
 .sass-cache/*
 scss/.sass-cache/*
+deploy-to-GitHub-pages.sh
