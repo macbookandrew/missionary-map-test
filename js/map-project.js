@@ -28,25 +28,59 @@ var markers = new L.MarkerClusterGroup();
 // extend marker class with more information
 customMarker = L.Marker.extend({
     options: {
-        missionaryImgSrc: 'URL of image',
-        missionaryAddress: 'city/country'
+        missionaryName: '',
+        missionaryCountry: '',
+        missionaryMinistries: '',
+        missionaryPhone: '',
+        missionaryEmail: '',
+        missionaryWebsite: '',
+        missionaryStreet: '',
+        missionaryCity: '',
+        missionaryState: '',
+        missionaryZip: '',
+        missionarySendingChurch: '',
+        missionaryBirthdays: '',
+        missionaryAnniversary: '',
+        missionaryImage: ''
     }
 });
 
 // loop through missionaries and create markers
 for (var i = 0; i < missionaryPoints.length; i++) {
     var a = missionaryPoints[i];
-    var latitude = a[0];
-    var longitude = a[1];
-    var title = a[2];
-    var missionaryImgSrc = a[3];
-    var missionaryAddress = a[4];
+    var latitude = a[1];
+    var longitude = a[2];
+    var missionaryName = a[0];
+    var missionaryCountry = a[3];
+    var missionaryMinistries = a[4];
+    var missionaryPhone = a[5];
+    var missionaryEmail = a[6];
+    var missionaryWebsite = a[7];
+    var missionaryStreet = a[8];
+    var missionaryCity = a[8];
+    var missionaryState = a[10];
+    var missionaryZip = a[11];
+    var missionarySendingChurch = a[12];
+    var missionaryBirthdays = a[13];
+    var missionaryAnniversary = a[14];
+    var missionaryImage = a[15];
     var marker = new customMarker([latitude, longitude], {
-        title: title,
-        missionaryImgSrc: missionaryImgSrc,
-        missionaryAddress: missionaryAddress
+        missionaryName: missionaryName,
+        missionaryCountry: missionaryCountry,
+        missionaryMinistries: missionaryMinistries,
+        missionaryPhone: missionaryPhone,
+        missionaryEmail: missionaryEmail,
+        missionaryWebsite: missionaryWebsite,
+        missionaryStreet: missionaryStreet,
+        missionaryCity: missionaryCity,
+        missionaryState: missionaryState,
+        missionaryZip: missionaryZip,
+        missionarySendingChurch: missionarySendingChurch,
+        missionaryBirthdays: missionaryBirthdays,
+        missionaryAnniversary: missionaryAnniversary,
+        missionaryImage: ''
     }).on('click', function () {
-        var sidebarContent = '<h1>' + this.options.title + '</h1><img src="' + this.options.missionaryImgSrc + '" /><address>' + this.options.missionaryAddress + '</address>';
+        var sidebarContent = '<h1>' + this.options.missionaryName + '</h1><img src="' + this.options.missionaryImage + '" />';
         sidebar.setContent( sidebarContent );
         sidebar.show();
     });
