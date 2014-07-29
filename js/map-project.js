@@ -6,6 +6,8 @@ var missionaryImagePath = 'images/missionaries'; // missionary photos
 // @codekit-prepend "missionary-list.js";
 // @codekit-prepend "../bower_components/leaflet.markercluster/dist/leaflet.markercluster.js";
 // @codekit-prepend "../bower_components/leaflet-sidebar/src/L.Control.Sidebar.js";
+// @codekit-prepend "../bower_components/leaflet-fullscreen/Control.FullScreen.js";
+// @codekit-prepend "L.Control.ZoomMin.js";
 
 // create a map in the "map" div, set the view to a given place and zoom
 var map = L.map('map').setView([0,0], 1);
