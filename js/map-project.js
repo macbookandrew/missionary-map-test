@@ -81,7 +81,7 @@ for (var i = 0; i < missionaryPoints.length; i++) {
     }).on('click', function () {
         var sidebarContent;
         sidebarContent = '<h1 class="fn n">' + this.options.missionaryName + '</h1>';
-        sidebarContent += '<img class="missionary-photo" src="' + missionaryImagePath + '/' + this.options.missionaryImage + '" />';
+        sidebarContent += '<img class="missionary-photo" src="' + missionaryImagePath + '/' + this.options.missionaryImage + '" title="' + this.options.missionaryName + '" alt="Photo of ' + this.options.missionaryName + '" />';
         if (this.options.missionaryCountry) { sidebarContent += '<h2 class="country">Field of Service: ' + this.options.missionaryCountry + '</h2>'; }
         if (this.options.missionaryMinistries) { sidebarContent += '<h2 class="ministries">Ministry Types: ' + this.options.missionaryMinistries + '</h2>'; }
         if (this.options.missionaryCity) {
@@ -97,7 +97,7 @@ for (var i = 0; i < missionaryPoints.length; i++) {
         }
         if (this.options.missionarySendingChurch) { sidebarContent += '<h2 class="sending-church">Sending Church</h2><p>' + this.options.missionarySendingChurch + '</p>'; }
         if (this.options.missionaryBirthdays) { sidebarContent += '<h2 class="birthdays">Birthdays</h2><p>' + this.options.missionaryBirthdays + '</p>'; }
-        if (this.options.missionaryAnniversary) { sidebarContent += '<h2 class="birthdays">Anniversary</h2><p>' + this.options.missionaryAnniversary + '</p>'; }
+        if (this.options.missionaryAnniversary) { sidebarContent += '<h2 class="anniversary">Anniversary</h2><p>' + this.options.missionaryAnniversary + '</p>'; }
         
         sidebar.setContent( sidebarContent );
         sidebar.show();

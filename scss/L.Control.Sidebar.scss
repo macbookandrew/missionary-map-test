@@ -7,6 +7,8 @@ $width-md: 390px;
 $width-sm: 305px;
 $width-xs: 100%;
 
+$background-color: rgba(241, 238, 232, .8);
+
 $transition-duration: 0.5s;
 
 @mixin border-radius($border-radius) {
@@ -75,7 +77,7 @@ $transition-duration: 0.5s;
 
         font-size: 1.1em;
 
-        background: white;
+        background: $background-color;
         box-shadow: 0 1px 7px rgba(0,0,0,0.65);
         @include border-radius(4px);
 
@@ -138,9 +140,9 @@ $transition-duration: 0.5s;
 
         color: #333;
         font-size: 25pt;
-        line-height: 1em;
+        line-height: 0.8em;
         text-align: center;
-        background: white;
+        background: $background-color;
         @include border-radius(16px);
         cursor: pointer;
 
