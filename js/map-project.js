@@ -1,5 +1,3 @@
-/* Leaflet core and plugins combined into one file */
-
 // set image path defaults
 L.Icon.Default.imagePath = 'images'; // leaflet.js images
 var missionaryImagePath = 'images/missionaries'; // missionary photos
