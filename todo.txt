@@ -1,5 +1,5 @@
 zoomed-out: display edge markers? https://github.com/ubergesundheit/Leaflet.EdgeMarker
-
+list missionaries: https://github.com/stefanocudini/leaflet-list-markers
 load in full-screen by default?
 
 offline use: load map data from hard drive? https://github.com/makinacorpus/Leaflet.FileLayer
