@@ -14,7 +14,8 @@ var map = L.map('map', {
     center: [0, -30],
     zoom: 1,
     minZoom: 1,
-    zoomControl: false
+    zoomControl: false,
+    fullscreenControl: true,
 });
 
 // add zoom-to-min button
