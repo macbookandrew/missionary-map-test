@@ -1,5 +1,4 @@
 zoomed-out: display edge markers? https://github.com/ubergesundheit/Leaflet.EdgeMarker
-add button for full-world view: https://github.com/alanshaw/leaflet-zoom-min/
 add button for full-screen: http://brunob.github.io/leaflet.fullscreen/
     load in full-screen by default?
 

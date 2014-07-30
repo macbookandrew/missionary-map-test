@@ -10,7 +10,15 @@ var missionaryImagePath = 'images/missionaries'; // missionary photos
 // @codekit-prepend "L.Control.ZoomMin.js";
 
 // create a map in the "map" div, set the view to a given place and zoom
-var map = L.map('map').setView([0,0], 1);
+var map = L.map('map', {
+    center: [0, -30],
+    zoom: 1,
+    minZoom: 1,
+    zoomControl: false
+});
+
+// add zoom-to-min button
+map.addControl(new L.Control.ZoomMin());
 
 // add an OpenStreetMap tile layer
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
